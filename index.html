@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts.js"></script>
     <title>Lyracons</title>
 </head>
 <body>
@@ -25,13 +28,15 @@
                    <a href="#">Submenu Item 3</a>
                 </div>
             </li>
-            <li><a href="#">MENU ITEM 2</a></li>
-           <li><a href="#">MENU ITEM 3</a></li>
-           <li><a href="#">MENU ITEM 4</a></li>
+            <li id="menuItem-2"><a href="#">MENU ITEM 2</a></li>
+           <li id="menuItem-3"><a href="#">MENU ITEM 3</a></li>
+           <li id="menuItem-4"><a href="#">MENU ITEM 4</a></li>
         </ul>
     </div>
     <div class="container">
-        <div class="left-panel"> </div>
+        <div class="left-panel">
+            <h3 class="hidden-hi">Hola Mundo!</h3>
+        </div>
         <div class="grid-products">
             <div class="product">
                 <img src="./img/sony.PNG" alt="imagen auriculares">
@@ -92,6 +97,6 @@
 
         </div>
     </div>
-    <div class="footer">fuuter</div>
+    <div class="footer"></div>
 </body>
 </html>
